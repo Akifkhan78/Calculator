@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 350px;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    left: 23rem;
+    top: 3rem;
+    border-radius: 5px;
+}
+
+input {
+    height: 40px;
+    width: 160px;
+    margin: 1rem 0 0 1rem;
+    background-color: black;
+    color: rgb(194, 189, 189);
+    border: 1px solid rgb(67, 67, 174);
+    border-radius: 3px;
+}
+
+.btn_container {
+    padding-top: 1.8rem;
+    padding-left: 1.4rem;
+
+}
+
+.row1 {
+    margin-bottom: 1rem;
+}
+
+.row2 {
+    margin-bottom: 1rem;
+}
+
+.row3 {
+    margin-bottom: 1rem;
+}
+
+.row4 {
+    margin-bottom: 1rem;
+}
+
+
+.row1 button {
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.row1 .del {
+    font-size: 1rem;
+    padding-left: 0.1rem;
+}
+
+.row1 .all_clear {
+    padding-left: 0.3rem;
+}
+
+.row2 button {
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.row3 button {
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.row4 button {
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.row5 button {
+    height: 2.2rem;
+    width: 2.2rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.row2 button {
+    color: rgb(184, 174, 174);
+}
+
+.row3 button {
+    color: rgb(184, 174, 174);
+}
+
+.row4 button {
+    color: rgb(184, 174, 174);
+}
+
+.row5 button {
+    color: rgb(184, 174, 174);
+}
+
+button {
+    background-color: rgb(23, 22, 22);
+
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+.row1 button {
+    color: rgb(67, 67, 174);
+}
+
+.row2 .mul {
+    color: rgb(67, 67, 174);
+}
+
+.row3 .sub {
+    color: rgb(67, 67, 174);
+}
+
+.row4 .add {
+    color: rgb(67, 67, 174);
+}
+
+.row5 .equal {
+    background-color: rgb(67, 67, 174);
+    color: white;
+}
+
+    .container {
+        height: 400px;
+        width: 250px;
+        background-color: black;
+        margin: auto;
+        border-radius: 5px;
+    }
+
+    .btn_container {
+        padding-top: 1.8rem;
+        padding-left: 1.8rem;
+
+    }
+
+    .row1 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row2 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row3 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row4 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row5 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    input {
+    height: 40px;
+    width: 200px;
+    margin: 1rem 0 0 1rem;
+    background-color: black;
+    color: rgb(194, 189, 189);
+    border: 1px solid rgb(67, 67, 174);
+    border-radius: 3px;
+    padding-left: 1rem;
+}
+
+
+
+@media(min-width: 300px) and (max-width: 780px) {
+    .container {
+        height: 400px;
+        width: 250px;
+        background-color: black;
+        margin: auto;
+        left: 2rem;
+        top: 1rem; 
+    }
+
+    .btn_container {
+        padding-top: 1.8rem;
+        padding-left: 1.8rem;
+
+    }
+
+    .row1 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row2 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row3 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row4 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    .row5 button {
+        height: 2.8rem;
+        width: 2.8rem;
+        font-size: 1.2rem;
+        padding: 0.2rem;
+    }
+    input {
+    height: 40px;
+    width: 200px;
+    margin: 1rem 0 0 1rem;
+    background-color: black;
+    color: rgb(194, 189, 189);
+    border: 1px solid rgb(67, 67, 174);
+    border-radius: 3px;
+    padding-left: 1rem;
+}
+
+}
